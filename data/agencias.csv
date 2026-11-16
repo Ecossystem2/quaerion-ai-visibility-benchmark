@@ -1,0 +1,17 @@
+intencao,interface,respostas_validas,pedidos_explicitos_por_agencia,respostas_classificadas_agencia_nomeada,agencia_nomeada_confirmada,agencia_seo_ou_marketing_confirmada,palavra_agencia_confirmada,respostas_sem_evidencia_suficiente_de_agencia_nomeada,coocorrencia_agencia_e_quaerion
+contratar_answer_intelligence,chatgpt,21,0,1,1,0,0,20,1
+contratar_answer_intelligence,gemini,19,0,1,1,1,0,18,1
+contratar_answer_intelligence,google_ai_mode,6,0,1,1,1,1,5,1
+contratar_answer_intelligence,perplexity,0,0,0,0,0,0,0,0
+encontrar_especialistas_aio_geo,chatgpt,21,0,1,1,1,0,20,0
+encontrar_especialistas_aio_geo,gemini,18,0,0,0,0,0,18,0
+encontrar_especialistas_aio_geo,google_ai_mode,6,0,0,0,0,0,6,0
+encontrar_especialistas_aio_geo,perplexity,0,0,0,0,0,0,0,0
+contratar_para_aparecer_no_chatgpt,chatgpt,21,0,3,3,3,4,18,0
+contratar_para_aparecer_no_chatgpt,gemini,19,0,0,0,0,5,19,0
+contratar_para_aparecer_no_chatgpt,google_ai_mode,7,0,0,0,0,1,7,0
+contratar_para_aparecer_no_chatgpt,perplexity,0,0,0,0,0,0,0,0
+contratar_implementacao_aeo_aio_geo,chatgpt,22,0,0,0,0,0,22,0
+contratar_implementacao_aeo_aio_geo,gemini,19,0,0,0,0,0,19,0
+contratar_implementacao_aeo_aio_geo,google_ai_mode,7,0,2,2,2,1,5,2
+contratar_implementacao_aeo_aio_geo,perplexity,0,0,0,0,0,0,0,0

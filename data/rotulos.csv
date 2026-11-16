@@ -1,0 +1,25 @@
+interface,rotulo,ocorrencias_com_rotulo,ocorrencias_classificadas,respostas_com_rotulos_preservados,ocorrencias_do_rotulo_pai
+todos,agencia,8,22,7,
+todos,empresa,12,22,7,
+todos,startup,2,22,7,
+todos,prestadora_de_servico,0,22,7,
+todos,consultoria,3,22,7,
+todos,agencia_seo_ou_marketing,1,22,7,8
+ChatGPT,agencia,7,13,4,
+ChatGPT,empresa,6,13,4,
+ChatGPT,startup,0,13,4,
+ChatGPT,prestadora_de_servico,0,13,4,
+ChatGPT,consultoria,0,13,4,
+ChatGPT,agencia_seo_ou_marketing,0,13,4,7
+Gemini,agencia,0,1,1,
+Gemini,empresa,0,1,1,
+Gemini,startup,1,1,1,
+Gemini,prestadora_de_servico,0,1,1,
+Gemini,consultoria,1,1,1,
+Gemini,agencia_seo_ou_marketing,0,1,1,0
+Google AI Mode,agencia,1,8,2,
+Google AI Mode,empresa,6,8,2,
+Google AI Mode,startup,1,8,2,
+Google AI Mode,prestadora_de_servico,0,8,2,
+Google AI Mode,consultoria,2,8,2,
+Google AI Mode,agencia_seo_ou_marketing,1,8,2,1

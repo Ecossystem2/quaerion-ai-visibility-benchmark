@@ -1,0 +1,795 @@
+{
+  "edicao": "2026-11-16",
+  "inicio_coleta": "2026-11-15",
+  "fim_coleta": "2026-11-16",
+  "marco_seguinte": "2026-12-16",
+  "estado_marco_seguinte": "a_coletar",
+  "autora": "Quaerion",
+  "amostra_planejada": 400,
+  "intencoes": {
+    "contratar_answer_intelligence": "Contratar Answer Intelligence",
+    "encontrar_especialistas_aio_geo": "Encontrar especialistas em AIO e GEO",
+    "contratar_para_aparecer_no_chatgpt": "Contratar ajuda para aparecer no ChatGPT",
+    "contratar_implementacao_aeo_aio_geo": "Implementar AEO, AIO e GEO neste mês"
+  },
+  "interfaces": {
+    "chatgpt": "ChatGPT",
+    "gemini": "Gemini",
+    "google_ai_mode": "Google AI Mode",
+    "perplexity": "Perplexity"
+  },
+  "indicadores": [
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_answer_intelligence",
+      "interface": "chatgpt",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 19,
+      "denominador": 21,
+      "taxa": 0.904762,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_answer_intelligence",
+      "interface": "gemini",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 9,
+      "denominador": 19,
+      "taxa": 0.473684,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_answer_intelligence",
+      "interface": "google_ai_mode",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 6,
+      "denominador": 6,
+      "taxa": 1.0,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_answer_intelligence",
+      "interface": "perplexity",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 0,
+      "denominador": 0,
+      "taxa": null,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "cota_na_coleta"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "encontrar_especialistas_aio_geo",
+      "interface": "chatgpt",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 1,
+      "denominador": 21,
+      "taxa": 0.047619,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "encontrar_especialistas_aio_geo",
+      "interface": "gemini",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 4,
+      "denominador": 18,
+      "taxa": 0.222222,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "encontrar_especialistas_aio_geo",
+      "interface": "google_ai_mode",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 5,
+      "denominador": 6,
+      "taxa": 0.833333,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "encontrar_especialistas_aio_geo",
+      "interface": "perplexity",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 0,
+      "denominador": 0,
+      "taxa": null,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "cota_na_coleta"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "chatgpt",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 0,
+      "denominador": 21,
+      "taxa": 0.0,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "gemini",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 0,
+      "denominador": 19,
+      "taxa": 0.0,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "google_ai_mode",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 0,
+      "denominador": 7,
+      "taxa": 0.0,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "perplexity",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 0,
+      "denominador": 0,
+      "taxa": null,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "cota_na_coleta"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_implementacao_aeo_aio_geo",
+      "interface": "chatgpt",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 2,
+      "denominador": 22,
+      "taxa": 0.090909,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_implementacao_aeo_aio_geo",
+      "interface": "gemini",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 8,
+      "denominador": 19,
+      "taxa": 0.421053,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_implementacao_aeo_aio_geo",
+      "interface": "google_ai_mode",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 7,
+      "denominador": 7,
+      "taxa": 1.0,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_implementacao_aeo_aio_geo",
+      "interface": "perplexity",
+      "etapa": "espontanea",
+      "metrica": "presenca_da_marca",
+      "ocorrencias": 0,
+      "denominador": 0,
+      "taxa": null,
+      "unidade": "resposta",
+      "tentativas_planejadas": 25,
+      "estado": "cota_na_coleta"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "chatgpt",
+      "etapa": "assistida",
+      "metrica": "marca_considerada",
+      "ocorrencias": 7,
+      "denominador": 7,
+      "taxa": 1.0,
+      "unidade": "acompanhamento",
+      "tentativas_planejadas": null,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "gemini",
+      "etapa": "assistida",
+      "metrica": "marca_considerada",
+      "ocorrencias": 5,
+      "denominador": 5,
+      "taxa": 1.0,
+      "unidade": "acompanhamento",
+      "tentativas_planejadas": null,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "google_ai_mode",
+      "etapa": "assistida",
+      "metrica": "marca_considerada",
+      "ocorrencias": 3,
+      "denominador": 3,
+      "taxa": 1.0,
+      "unidade": "acompanhamento",
+      "tentativas_planejadas": null,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_answer_intelligence",
+      "interface": "chatgpt_gemini_google_ai_mode",
+      "etapa": "espontanea_primeira_repeticao",
+      "metrica": "share_of_voice",
+      "ocorrencias": 3,
+      "denominador": 12,
+      "taxa": 0.25,
+      "unidade": "ocorrencia_de_fornecedor",
+      "tentativas_planejadas": null,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "chatgpt",
+      "etapa": "teste_auxiliar_de_redacao",
+      "metrica": "share_of_voice",
+      "ocorrencias": 0,
+      "denominador": 11,
+      "taxa": 0.0,
+      "unidade": "ocorrencia_de_fornecedor",
+      "tentativas_planejadas": null,
+      "estado": "observado"
+    },
+    {
+      "rodada": "2026-11-16",
+      "intencao": "contratar_implementacao_aeo_aio_geo",
+      "interface": "google_ai_mode",
+      "etapa": "comparativo_entre_opcoes_originais",
+      "metrica": "primeira_posicao_em_rankings_auditados",
+      "ocorrencias": 2,
+      "denominador": 2,
+      "taxa": 1.0,
+      "unidade": "comparativo_solicitado",
+      "tentativas_planejadas": null,
+      "estado": "observado"
+    }
+  ],
+  "agencias_por_grupo": [
+    {
+      "intencao": "contratar_answer_intelligence",
+      "interface": "chatgpt",
+      "respostas_validas": 21,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 1,
+      "agencia_nomeada_confirmada": 1,
+      "agencia_seo_ou_marketing_confirmada": 0,
+      "palavra_agencia_confirmada": 0,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 20,
+      "coocorrencia_agencia_e_quaerion": 1
+    },
+    {
+      "intencao": "contratar_answer_intelligence",
+      "interface": "gemini",
+      "respostas_validas": 19,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 1,
+      "agencia_nomeada_confirmada": 1,
+      "agencia_seo_ou_marketing_confirmada": 1,
+      "palavra_agencia_confirmada": 0,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 18,
+      "coocorrencia_agencia_e_quaerion": 1
+    },
+    {
+      "intencao": "contratar_answer_intelligence",
+      "interface": "google_ai_mode",
+      "respostas_validas": 6,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 1,
+      "agencia_nomeada_confirmada": 1,
+      "agencia_seo_ou_marketing_confirmada": 1,
+      "palavra_agencia_confirmada": 1,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 5,
+      "coocorrencia_agencia_e_quaerion": 1
+    },
+    {
+      "intencao": "contratar_answer_intelligence",
+      "interface": "perplexity",
+      "respostas_validas": 0,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 0,
+      "agencia_nomeada_confirmada": 0,
+      "agencia_seo_ou_marketing_confirmada": 0,
+      "palavra_agencia_confirmada": 0,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 0,
+      "coocorrencia_agencia_e_quaerion": 0
+    },
+    {
+      "intencao": "encontrar_especialistas_aio_geo",
+      "interface": "chatgpt",
+      "respostas_validas": 21,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 1,
+      "agencia_nomeada_confirmada": 1,
+      "agencia_seo_ou_marketing_confirmada": 1,
+      "palavra_agencia_confirmada": 0,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 20,
+      "coocorrencia_agencia_e_quaerion": 0
+    },
+    {
+      "intencao": "encontrar_especialistas_aio_geo",
+      "interface": "gemini",
+      "respostas_validas": 18,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 0,
+      "agencia_nomeada_confirmada": 0,
+      "agencia_seo_ou_marketing_confirmada": 0,
+      "palavra_agencia_confirmada": 0,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 18,
+      "coocorrencia_agencia_e_quaerion": 0
+    },
+    {
+      "intencao": "encontrar_especialistas_aio_geo",
+      "interface": "google_ai_mode",
+      "respostas_validas": 6,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 0,
+      "agencia_nomeada_confirmada": 0,
+      "agencia_seo_ou_marketing_confirmada": 0,
+      "palavra_agencia_confirmada": 0,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 6,
+      "coocorrencia_agencia_e_quaerion": 0
+    },
+    {
+      "intencao": "encontrar_especialistas_aio_geo",
+      "interface": "perplexity",
+      "respostas_validas": 0,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 0,
+      "agencia_nomeada_confirmada": 0,
+      "agencia_seo_ou_marketing_confirmada": 0,
+      "palavra_agencia_confirmada": 0,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 0,
+      "coocorrencia_agencia_e_quaerion": 0
+    },
+    {
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "chatgpt",
+      "respostas_validas": 21,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 3,
+      "agencia_nomeada_confirmada": 3,
+      "agencia_seo_ou_marketing_confirmada": 3,
+      "palavra_agencia_confirmada": 4,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 18,
+      "coocorrencia_agencia_e_quaerion": 0
+    },
+    {
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "gemini",
+      "respostas_validas": 19,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 0,
+      "agencia_nomeada_confirmada": 0,
+      "agencia_seo_ou_marketing_confirmada": 0,
+      "palavra_agencia_confirmada": 5,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 19,
+      "coocorrencia_agencia_e_quaerion": 0
+    },
+    {
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "google_ai_mode",
+      "respostas_validas": 7,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 0,
+      "agencia_nomeada_confirmada": 0,
+      "agencia_seo_ou_marketing_confirmada": 0,
+      "palavra_agencia_confirmada": 1,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 7,
+      "coocorrencia_agencia_e_quaerion": 0
+    },
+    {
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "perplexity",
+      "respostas_validas": 0,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 0,
+      "agencia_nomeada_confirmada": 0,
+      "agencia_seo_ou_marketing_confirmada": 0,
+      "palavra_agencia_confirmada": 0,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 0,
+      "coocorrencia_agencia_e_quaerion": 0
+    },
+    {
+      "intencao": "contratar_implementacao_aeo_aio_geo",
+      "interface": "chatgpt",
+      "respostas_validas": 22,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 0,
+      "agencia_nomeada_confirmada": 0,
+      "agencia_seo_ou_marketing_confirmada": 0,
+      "palavra_agencia_confirmada": 0,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 22,
+      "coocorrencia_agencia_e_quaerion": 0
+    },
+    {
+      "intencao": "contratar_implementacao_aeo_aio_geo",
+      "interface": "gemini",
+      "respostas_validas": 19,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 0,
+      "agencia_nomeada_confirmada": 0,
+      "agencia_seo_ou_marketing_confirmada": 0,
+      "palavra_agencia_confirmada": 0,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 19,
+      "coocorrencia_agencia_e_quaerion": 0
+    },
+    {
+      "intencao": "contratar_implementacao_aeo_aio_geo",
+      "interface": "google_ai_mode",
+      "respostas_validas": 7,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 2,
+      "agencia_nomeada_confirmada": 2,
+      "agencia_seo_ou_marketing_confirmada": 2,
+      "palavra_agencia_confirmada": 1,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 5,
+      "coocorrencia_agencia_e_quaerion": 2
+    },
+    {
+      "intencao": "contratar_implementacao_aeo_aio_geo",
+      "interface": "perplexity",
+      "respostas_validas": 0,
+      "pedidos_explicitos_por_agencia": 0,
+      "respostas_classificadas_agencia_nomeada": 0,
+      "agencia_nomeada_confirmada": 0,
+      "agencia_seo_ou_marketing_confirmada": 0,
+      "palavra_agencia_confirmada": 0,
+      "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 0,
+      "coocorrencia_agencia_e_quaerion": 0
+    }
+  ],
+  "agencias_total": {
+    "respostas_validas": 186,
+    "pedidos_explicitos_por_agencia": 0,
+    "respostas_classificadas_agencia_nomeada": 9,
+    "agencia_nomeada_confirmada": 9,
+    "agencia_seo_ou_marketing_confirmada": 8,
+    "palavra_agencia_confirmada": 12,
+    "respostas_sem_evidencia_suficiente_de_agencia_nomeada": 177,
+    "coocorrencia_agencia_e_quaerion": 5
+  },
+  "agencias_assistida_subamostra": [
+    {
+      "intencao": "contratar_para_aparecer_no_chatgpt",
+      "interface": "chatgpt",
+      "auditadas": 2,
+      "agencias": 2
+    }
+  ],
+  "agencias_comparativos_subamostra": [
+    {
+      "intencao": "contratar_implementacao_aeo_aio_geo",
+      "interface": "google_ai_mode",
+      "auditadas": 2,
+      "agencias": 2
+    }
+  ],
+  "redacao_auxiliar": {
+    "espontaneas": 4,
+    "quaerion_espontanea": 0,
+    "assistidas": 4,
+    "quaerion_assistida": 4,
+    "listas_chatgpt_auditadas": 2,
+    "listas_chatgpt_com_agencia_confirmada": 2,
+    "pares_exclusao_agencias_recuperados": 0,
+    "rotulos_por_versao": [
+      {
+        "interface": "chatgpt",
+        "versao": "quem_contratar",
+        "rotulo_de_lista": "agencia",
+        "ocorrencias": 5
+      },
+      {
+        "interface": "chatgpt",
+        "versao": "quais_empresas_contratar",
+        "rotulo_de_lista": "empresa",
+        "ocorrencias": 6
+      }
+    ]
+  },
+  "rotulos_fornecedores": [
+    {
+      "interface": "todos",
+      "rotulo": "agencia",
+      "ocorrencias_com_rotulo": 8,
+      "ocorrencias_classificadas": 22,
+      "respostas_com_rotulos_preservados": 7,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "todos",
+      "rotulo": "empresa",
+      "ocorrencias_com_rotulo": 12,
+      "ocorrencias_classificadas": 22,
+      "respostas_com_rotulos_preservados": 7,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "todos",
+      "rotulo": "startup",
+      "ocorrencias_com_rotulo": 2,
+      "ocorrencias_classificadas": 22,
+      "respostas_com_rotulos_preservados": 7,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "todos",
+      "rotulo": "prestadora_de_servico",
+      "ocorrencias_com_rotulo": 0,
+      "ocorrencias_classificadas": 22,
+      "respostas_com_rotulos_preservados": 7,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "todos",
+      "rotulo": "consultoria",
+      "ocorrencias_com_rotulo": 3,
+      "ocorrencias_classificadas": 22,
+      "respostas_com_rotulos_preservados": 7,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "todos",
+      "rotulo": "agencia_seo_ou_marketing",
+      "ocorrencias_com_rotulo": 1,
+      "ocorrencias_classificadas": 22,
+      "respostas_com_rotulos_preservados": 7,
+      "ocorrencias_do_rotulo_pai": 8
+    },
+    {
+      "interface": "ChatGPT",
+      "rotulo": "agencia",
+      "ocorrencias_com_rotulo": 7,
+      "ocorrencias_classificadas": 13,
+      "respostas_com_rotulos_preservados": 4,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "ChatGPT",
+      "rotulo": "empresa",
+      "ocorrencias_com_rotulo": 6,
+      "ocorrencias_classificadas": 13,
+      "respostas_com_rotulos_preservados": 4,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "ChatGPT",
+      "rotulo": "startup",
+      "ocorrencias_com_rotulo": 0,
+      "ocorrencias_classificadas": 13,
+      "respostas_com_rotulos_preservados": 4,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "ChatGPT",
+      "rotulo": "prestadora_de_servico",
+      "ocorrencias_com_rotulo": 0,
+      "ocorrencias_classificadas": 13,
+      "respostas_com_rotulos_preservados": 4,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "ChatGPT",
+      "rotulo": "consultoria",
+      "ocorrencias_com_rotulo": 0,
+      "ocorrencias_classificadas": 13,
+      "respostas_com_rotulos_preservados": 4,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "ChatGPT",
+      "rotulo": "agencia_seo_ou_marketing",
+      "ocorrencias_com_rotulo": 0,
+      "ocorrencias_classificadas": 13,
+      "respostas_com_rotulos_preservados": 4,
+      "ocorrencias_do_rotulo_pai": 7
+    },
+    {
+      "interface": "Gemini",
+      "rotulo": "agencia",
+      "ocorrencias_com_rotulo": 0,
+      "ocorrencias_classificadas": 1,
+      "respostas_com_rotulos_preservados": 1,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "Gemini",
+      "rotulo": "empresa",
+      "ocorrencias_com_rotulo": 0,
+      "ocorrencias_classificadas": 1,
+      "respostas_com_rotulos_preservados": 1,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "Gemini",
+      "rotulo": "startup",
+      "ocorrencias_com_rotulo": 1,
+      "ocorrencias_classificadas": 1,
+      "respostas_com_rotulos_preservados": 1,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "Gemini",
+      "rotulo": "prestadora_de_servico",
+      "ocorrencias_com_rotulo": 0,
+      "ocorrencias_classificadas": 1,
+      "respostas_com_rotulos_preservados": 1,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "Gemini",
+      "rotulo": "consultoria",
+      "ocorrencias_com_rotulo": 1,
+      "ocorrencias_classificadas": 1,
+      "respostas_com_rotulos_preservados": 1,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "Gemini",
+      "rotulo": "agencia_seo_ou_marketing",
+      "ocorrencias_com_rotulo": 0,
+      "ocorrencias_classificadas": 1,
+      "respostas_com_rotulos_preservados": 1,
+      "ocorrencias_do_rotulo_pai": 0
+    },
+    {
+      "interface": "Google AI Mode",
+      "rotulo": "agencia",
+      "ocorrencias_com_rotulo": 1,
+      "ocorrencias_classificadas": 8,
+      "respostas_com_rotulos_preservados": 2,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "Google AI Mode",
+      "rotulo": "empresa",
+      "ocorrencias_com_rotulo": 6,
+      "ocorrencias_classificadas": 8,
+      "respostas_com_rotulos_preservados": 2,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "Google AI Mode",
+      "rotulo": "startup",
+      "ocorrencias_com_rotulo": 1,
+      "ocorrencias_classificadas": 8,
+      "respostas_com_rotulos_preservados": 2,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "Google AI Mode",
+      "rotulo": "prestadora_de_servico",
+      "ocorrencias_com_rotulo": 0,
+      "ocorrencias_classificadas": 8,
+      "respostas_com_rotulos_preservados": 2,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "Google AI Mode",
+      "rotulo": "consultoria",
+      "ocorrencias_com_rotulo": 2,
+      "ocorrencias_classificadas": 8,
+      "respostas_com_rotulos_preservados": 2,
+      "ocorrencias_do_rotulo_pai": null
+    },
+    {
+      "interface": "Google AI Mode",
+      "rotulo": "agencia_seo_ou_marketing",
+      "ocorrencias_com_rotulo": 1,
+      "ocorrencias_classificadas": 8,
+      "respostas_com_rotulos_preservados": 2,
+      "ocorrencias_do_rotulo_pai": 1
+    }
+  ],
+  "posicoes_assistidas": [
+    {
+      "interface": "google_ai_mode",
+      "posicao": 1,
+      "fornecedores_na_lista": 5,
+      "comparativos_observados": 1
+    },
+    {
+      "interface": "chatgpt",
+      "posicao": 3,
+      "fornecedores_na_lista": 5,
+      "comparativos_observados": 2
+    }
+  ],
+  "cenarios_30_dias": [
+    {
+      "rotulo": "Base observada",
+      "natureza": "observada",
+      "presencas": 61,
+      "validas": 186,
+      "acrescimo": 0
+    },
+    {
+      "rotulo": "Exemplo com nove presenças a mais",
+      "natureza": "ilustrativa",
+      "presencas": 70,
+      "validas": 186,
+      "acrescimo": 9
+    },
+    {
+      "rotulo": "Exemplo com dezenove presenças a mais",
+      "natureza": "ilustrativa",
+      "presencas": 80,
+      "validas": 186,
+      "acrescimo": 19
+    }
+  ],
+  "escopo_geografico": "Recorte brasileiro; América Latina sem medição regional nesta edição.",
+  "contexto_financiamento": {
+    "quaerion": {
+      "declaracao_da_empresa": "Recursos próprios, sem rodada externa."
+    },
+    "profound": {
+      "evento": "Série D anunciada",
+      "data": "2026-09-15",
+      "valor_usd": 180000000,
+      "fonte": "https://www.tryprofound.com/newsroom/profound-raises-usd180m-series-d-at-usd1-8b-valuation-to-build-the-ai-platform-for-marketing-teams"
+    }
+  }
+}

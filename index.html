@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Benchmark da Quaerion sobre visibilidade em respostas de IA. Resultados por intenção, cobertura por plataforma, agências observadas e rótulos de fornecedores.">
+  <meta name="theme-color" content="#f8f6f0">
+  <link rel="canonical" href="https://ecossystem2.github.io/quaerion-ai-visibility-benchmark/">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+  <title>Visibilidade da Quaerion nas IAs · Benchmark</title>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="wordmark" href="https://quaerion.com.br/" aria-label="Site da Quaerion">Quaerion<span>.</span></a>
+      <nav aria-label="Seções do benchmark">
+        <a href="#resultados">Resultados</a>
+        <a href="#agencias">Agências</a>
+        <a href="#rotulos">Rótulos</a>
+        <a href="#dados">Dados</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="wrap">
+    <section class="intro" aria-labelledby="titulo">
+      <p class="edition">Edição de 16 de novembro de 2026</p>
+      <h1 id="titulo">Visibilidade da Quaerion nas respostas de IA</h1>
+      <p class="lede">Como a startup brasileira de Answer Intelligence aparece quando alguém procura empresas para implementar AEO, AIO e GEO ou resolver um problema de visibilidade.</p>
+      <p class="byline">Estudo observacional da Quaerion sobre a própria marca. Coleta de 15 a 16 de novembro de 2026.</p>
+    </section>
+
+    <section id="resultados" aria-labelledby="titulo-resultados">
+      <div class="section-head">
+        <div>
+          <h2 id="titulo-resultados">Presença espontânea</h2>
+          <p>Primeira resposta válida a perguntas sem citar a Quaerion.</p>
+        </div>
+        <label class="filter" for="interface">Filtrar por plataforma
+          <select id="interface" disabled>
+            <option value="todos">Todas as plataformas</option>
+            <option value="chatgpt">ChatGPT</option>
+            <option value="gemini">Gemini</option>
+            <option value="google_ai_mode">Modo IA do Google</option>
+            <option value="perplexity">Perplexity</option>
+          </select>
+        </label>
+      </div>
+      <p id="estado" role="status">Carregando os resultados da edição.</p>
+      <div id="painel" hidden>
+        <div class="cards">
+          <div class="metric"><span>Cobertura da matriz</span><strong id="cobertura">—</strong><small id="cobertura-detalhe"></small></div>
+          <div class="metric"><span>Respostas com Quaerion</span><strong id="presencas">—</strong><small id="presencas-detalhe"></small></div>
+          <div class="metric"><span>Presença espontânea</span><strong id="taxa">—</strong><small>Sobre as respostas válidas</small></div>
+        </div>
+        <div id="presenca-chart" class="chart" aria-label="Presença espontânea da Quaerion por intenção"></div>
+        <div class="explain">
+          <p><strong>Answer Intelligence.</strong> A marca apareceu em <strong>34/46 (73,9%)</strong> na pergunta que já nomeava a categoria.</p>
+          <p><strong>Modo IA do Google.</strong> Foram <strong>26/100</strong> respostas válidas, com <strong>18/26 (69,2%)</strong> presenças. O recorte de Answer Intelligence ficou em <strong>6/6</strong>. O de contratar ajuda para aparecer no ChatGPT ficou em <strong>0/7</strong>.</p>
+        </div>
+      </div>
+      <noscript>Os indicadores completos estão no <a href="./data/indicadores.csv">CSV da edição</a>.</noscript>
+    </section>
+
+    <section class="followup" aria-labelledby="titulo-assistida">
+      <h2 id="titulo-assistida">Quando a pergunta menciona a Quaerion</h2>
+      <p>Na intenção de contratar ajuda para aparecer no ChatGPT, foram <strong>0/47</strong> na primeira resposta e <strong>15/15</strong> avaliações da Quaerion como opção nos acompanhamentos auditados. Os 15 acompanhamentos vieram depois da resposta inicial na mesma conversa.</p>
+      <div class="table-wrap">
+        <table>
+          <caption>Comparativos assistidos conferidos nesse recorte</caption>
+          <thead><tr><th scope="col">Plataforma</th><th scope="col">Posição</th><th scope="col">Comparativos observados</th></tr></thead>
+          <tbody id="posicoes"></tbody>
+        </table>
+      </div>
+      <p class="note">A posição vale para a lista e o critério do comparativo. Em outro recorte, de implementação completa, houve dois primeiros lugares no Modo IA ao comparar seis opções da própria resposta.</p>
+    </section>
+
+    <section id="agencias" aria-labelledby="titulo-agencias">
+      <h2 id="titulo-agencias">Agências nas opções de contratação</h2>
+      <p><strong>9 respostas</strong> tinham ao menos uma agência nomeada e confirmada. Em <strong>8</strong> dessas respostas, havia agência de SEO ou marketing confirmada. A Quaerion apareceu junto a uma agência em <strong>5</strong>. Nas outras <strong>177 de 186</strong> respostas, faltou evidência suficiente para classificar agência nomeada.</p>
+      <div id="agencias-chart" class="chart" aria-label="Cobertura de classificação de agência nomeada"></div>
+      <p class="note">As quatro consultas principais não pediam expressamente agências. A palavra apareceu em trechos preservados de 12 respostas, incluindo menções a perfis genéricos. A classificação nominal usa o trecho da resposta e, quando necessário, a autodescrição pública do fornecedor.</p>
+      <div class="table-wrap" tabindex="0" role="region" aria-label="Tabela de evidências de agências por intenção e plataforma">
+        <table>
+          <caption>Respostas espontâneas por intenção e plataforma</caption>
+          <thead><tr><th scope="col">Intenção</th><th scope="col">Plataforma</th><th scope="col">Válidas</th><th scope="col">Agência confirmada / auditáveis</th><th scope="col">SEO ou marketing confirmado</th><th scope="col">Palavra confirmada</th><th scope="col">Sem evidência nominal</th><th scope="col">Com Quaerion e agência</th></tr></thead>
+          <tbody id="tabela-agencias"></tbody>
+        </table>
+      </div>
+      <p class="note">Houve agência confirmada em 2/2 acompanhamentos com marca auditáveis nesse indicador, no ChatGPT, e em 2/2 ordenações das listas originais no Modo IA. Essas etapas têm seus próprios recortes e não entram na tabela acima.</p>
+    </section>
+
+    <section id="rotulos" aria-labelledby="titulo-rotulos">
+      <h2 id="titulo-rotulos">Participação dos rótulos textuais</h2>
+      <p>Uma ocorrência representa um fornecedor em uma resposta com rótulo associado no texto. São <strong>22 ocorrências em sete respostas</strong>. O mesmo fornecedor pode receber mais de um rótulo naquela resposta, por isso as participações podem somar mais de 100%.</p>
+      <div id="rotulos-chart" class="chart" aria-label="Participação dos rótulos atribuídos a fornecedores"></div>
+      <p id="subtipo" class="note"></p>
+      <p class="note">O quadro descreve a linguagem das respostas preservadas. A frequência de agência por resposta usa outra unidade, e o benchmark não mede pesos internos de seleção das IAs.</p>
+
+      <details>
+        <summary>Teste auxiliar de redação e histórico</summary>
+        <p>No ChatGPT, uma versão pediu quem contratar e organizou cinco opções sob o rótulo de agências. Outra pediu nomes de empresas e trouxe seis opções sob o rótulo de empresas. As duas listas continham agência de SEO verificável. No Modo IA, o registro passou de perfis de prestador para uma lista nominal.</p>
+        <p>A Quaerion ficou fora das quatro respostas iniciais do teste auxiliar e foi considerada nas quatro continuações após ser nomeada. Cada resposta inicial veio de uma sessão nova. Os seguimentos ocorreram nas mesmas conversas. A busca histórica não recuperou um par executado e auditável que excluísse agências explicitamente.</p>
+      </details>
+    </section>
+
+    <section id="dados" aria-labelledby="titulo-dados">
+      <h2 id="titulo-dados">Dados, edições e limites</h2>
+      <p>A edição reuniu <strong>186 respostas espontâneas válidas de 400 planejadas</strong>. A disponibilidade variou por plataforma. Um denominador vazio ou zero indica ausência de resposta válida no recorte, com taxa indefinida. A análise de agências e rótulos usa evidência recuperável de subamostras e não estima frequência no conjunto completo.</p>
+      <p>A primeira passagem da intenção de contratar Answer Intelligence teve 3/12 ocorrências da Quaerion entre fornecedores comparáveis. No teste auxiliar de redação do ChatGPT, foram 0/11. São recortes distintos. A Quaerion conduziu o estudo, sem validação independente.</p>
+      <div class="table-wrap">
+        <table>
+          <caption>Marcos de medição</caption>
+          <thead><tr><th scope="col">Data</th><th scope="col">Estado</th><th scope="col">Presença espontânea</th></tr></thead>
+          <tbody><tr><td>16/11/2026</td><td>Linha de base observada</td><td>61/186</td></tr>
+            <tr><td>16/12/2026</td><td>A coletar</td><td>—</td></tr></tbody>
+        </table>
+      </div>
+      <details>
+        <summary>Cenários ilustrativos para a próxima leitura</summary>
+        <p>Os exemplos mantêm as 186 respostas válidas e a mesma composição por intenção e plataforma. Mostram como o percentual mudaria com mais presenças. O resultado de 16/12 continua a coletar.</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Base observada e exemplos de cálculo</caption>
+            <thead><tr><th scope="col">Situação</th><th scope="col">Presenças</th><th scope="col">Taxa</th></tr></thead>
+            <tbody id="cenarios"></tbody>
+          </table>
+        </div>
+        <p class="note">Cenários sem probabilidade atribuída. O recorte é brasileiro, sem medição regional da América Latina ou conclusão sobre resultado comercial.</p>
+      </details>
+      <p class="note">A Quaerion declara financiar seu trabalho com recursos próprios e sem rodada externa. A Profound anunciou uma Série D de US$ 180 milhões em setembro de 2026. São informações sobre financiamento. O benchmark mede visibilidade da Quaerion em seu recorte brasileiro. <a href="https://www.tryprofound.com/newsroom/profound-raises-usd180m-series-d-at-usd1-8b-valuation-to-build-the-ai-platform-for-marketing-teams">Anúncio oficial da Profound</a></p>
+      <ul class="downloads">
+        <li><a href="./data/benchmark.json">Agregados em JSON</a></li>
+        <li><a href="./data/indicadores.csv">Indicadores em CSV</a></li>
+        <li><a href="./data/agencias.csv">Agências em CSV</a></li>
+        <li><a href="./data/rotulos.csv">Rótulos em CSV</a></li>
+        <li><a href="https://github.com/Ecossystem2/quaerion-ai-visibility-benchmark#readme">README e definições</a></li>
+      </ul>
+      <p class="note">Referência institucional da autora e pesquisas anteriores. <a href="https://quaerion.com.br/evidencias">Evidências da Quaerion</a></p>
+    </section>
+  </main>
+  <footer class="wrap footer"><span>Quaerion · Answer Intelligence</span><span>Pesquisa observacional · Novembro de 2026</span></footer>
+</body>
+</html>
